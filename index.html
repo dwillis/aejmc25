@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AEJMC Conference Schedule - August 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .filters {
+            padding: 30px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .filter-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr auto;
+            gap: 20px;
+            align-items: end;
+        }
+        
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .filter-group label {
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #495057;
+        }
+        
+        .filter-group input,
+        .filter-group select {
+            padding: 12px;
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+        
+        .filter-group input:focus,
+        .filter-group select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        .clear-btn {
+            padding: 12px 24px;
+            background: #e74c3c;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .clear-btn:hover {
+            background: #c0392b;
+            transform: translateY(-2px);
+        }
+        
+        .results-info {
+            padding: 20px 30px;
+            background: #e8f5e8;
+            border-left: 4px solid #28a745;
+            margin: 0;
+            font-weight: 600;
+            color: #155724;
+        }
+        
+        .sessions-container {
+            padding: 30px;
+            max-height: 70vh;
+            overflow-y: auto;
+        }
+        
+        .day-group {
+            margin-bottom: 50px;
+        }
+        
+        .day-header {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+            padding: 20px 25px;
+            border-radius: 12px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+            box-shadow: 0 6px 20px rgba(40, 167, 69, 0.3);
+        }
+        
+        .time-group {
+            margin-bottom: 40px;
+        }
+        
+        .time-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 10px;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+        
+        .session {
+            background: white;
+            border: 1px solid #e9ecef;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+        }
+        
+        .session:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        
+        .session-header {
+            display: flex;
+            justify-content: between;
+            align-items: flex-start;
+            margin-bottom: 15px;
+            gap: 20px;
+        }
+        
+        .session-time {
+            background: #667eea;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+        
+        .session-info {
+            flex: 1;
+        }
+        
+        .session-title {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+        
+        .session-division {
+            color: #6c757d;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        .session-moderator {
+            color: #495057;
+            margin-bottom: 10px;
+        }
+        
+        .session-description {
+            color: #6c757d;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+        
+        .panelists {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        
+        .panelists h4 {
+            color: #495057;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+        
+        .panelist {
+            margin-bottom: 8px;
+            padding: 8px 0;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .panelist:last-child {
+            border-bottom: none;
+        }
+        
+        .panelist-name {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .panelist-institution {
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+        
+        .paper-title {
+            font-style: italic;
+            color: #495057;
+            margin-bottom: 5px;
+        }
+        
+        .no-results {
+            text-align: center;
+            padding: 60px;
+            color: #6c757d;
+        }
+        
+        .no-results h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 60px;
+            color: #6c757d;
+        }
+        
+        .loading h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .filter-row {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            
+            .session-header {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .session-time {
+                align-self: flex-start;
+            }
+            
+            .sessions-container {
+                padding: 20px;
+            }
+        }
+        
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AEJMC Conference Schedule</h1>
+            <p>August 7-10, 2025</p>
+        </div>
+        
+        <div class="filters">
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label for="dayFilter">Filter by Day</label>
+                    <select id="dayFilter">
+                        <option value="">All Days</option>
+                        <option value="Thursday">Thursday</option>
+                        <option value="Friday">Friday</option>
+                        <option value="Saturday">Saturday</option>
+                        <option value="Sunday">Sunday</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="searchInput">Search Keywords</label>
+                    <input type="text" id="searchInput" placeholder="Search titles, descriptions, authors...">
+                </div>
+                <div class="filter-group">
+                    <label for="timeFilter">Filter by Time</label>
+                    <select id="timeFilter">
+                        <option value="">All Times</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="divisionFilter">Filter by Division</label>
+                    <select id="divisionFilter">
+                        <option value="">All Divisions</option>
+                    </select>
+                </div>
+                <button class="clear-btn" onclick="clearAllFilters()">Clear All</button>
+            </div>
+        </div>
+        
+        <div class="results-info" id="resultsInfo">
+            Loading sessions...
+        </div>
+        
+        <div class="sessions-container" id="sessionsContainer">
+            <div class="loading">
+                <h3>Loading conference sessions...</h3>
+                <p>Please wait while we load the schedule data.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global variables
+        window.scheduleApp = {
+            allSessions: [],
+            filteredSessions: [],
+            sessionsByDay: {},
+            loadedDays: new Set(),
+            dayFiles: {
+                'Thursday': 'aejmc_thurs.json',
+                'Friday': 'aejmc_fri.json',
+                'Saturday': 'aejmc_sat.json',
+                'Sunday': 'aejmc_sun.json'
+            }
+        };
+
+        // Load sessions from all JSON files
+        async function loadAllSessions() {
+            const loadingPromises = Object.entries(window.scheduleApp.dayFiles).map(async ([day, filename]) => {
+                try {
+                    const response = await fetch(filename);
+                    if (!response.ok) {
+                        console.warn(`Could not load ${filename}: HTTP ${response.status}`);
+                        return { day, sessions: [] };
+                    }
+                    const sessions = await response.json();
+                    // Add day property to each session
+                    const sessionsWithDay = sessions.map(session => ({ ...session, day }));
+                    return { day, sessions: sessionsWithDay };
+                } catch (error) {
+                    console.warn(`Error loading ${filename}:`, error);
+                    return { day, sessions: [] };
+                }
+            });
+
+            try {
+                const results = await Promise.all(loadingPromises);
+                
+                // Process results
+                window.scheduleApp.allSessions = [];
+                window.scheduleApp.sessionsByDay = {};
+                
+                results.forEach(({ day, sessions }) => {
+                    window.scheduleApp.sessionsByDay[day] = sessions;
+                    window.scheduleApp.allSessions.push(...sessions);
+                    if (sessions.length > 0) {
+                        window.scheduleApp.loadedDays.add(day);
+                    }
+                });
+
+                populateFilters();
+                filterSessions();
+                
+                // Update results info to show which days loaded
+                const loadedDaysList = Array.from(window.scheduleApp.loadedDays).join(', ');
+                if (window.scheduleApp.loadedDays.size === 0) {
+                    document.getElementById('resultsInfo').innerHTML = `
+                        <div style="color: #e74c3c;">
+                            <strong>No session files found.</strong> Please make sure at least one of these files exists: aejmc_thurs.json, aejmc_fri.json, aejmc_sat.json, aejmc_sun.json
+                        </div>
+                    `;
+                } else if (window.scheduleApp.loadedDays.size < 4) {
+                    console.log(`Loaded sessions for: ${loadedDaysList}`);
+                }
+                
+            } catch (error) {
+                console.error('Error loading session data:', error);
+                document.getElementById('resultsInfo').innerHTML = `
+                    <div style="color: #e74c3c; padding: 20px; text-align: center;">
+                        <h3>Error Loading Sessions</h3>
+                        <p>Could not load the session data. Please make sure the JSON files are in the same directory as this HTML file.</p>
+                        <p>Expected files: aejmc_thurs.json, aejmc_fri.json, aejmc_sat.json, aejmc_sun.json</p>
+                    </div>
+                `;
+            }
+        }
+
+        function populateFilters() {
+            const timeFilter = document.getElementById('timeFilter');
+            const divisionFilter = document.getElementById('divisionFilter');
+            
+            // Clear existing options (except the first "All" option)
+            timeFilter.innerHTML = '<option value="">All Times</option>';
+            divisionFilter.innerHTML = '<option value="">All Divisions</option>';
+            
+            // Get unique times and divisions
+            const times = [...new Set(window.scheduleApp.allSessions.map(session => `${session.start_time} - ${session.end_time}`))];
+            const divisions = [...new Set(window.scheduleApp.allSessions.map(session => session.division))];
+            
+            // Sort times chronologically
+            times.sort((a, b) => {
+                const timeA = convertTo24Hour(a.split(' - ')[0]);
+                const timeB = convertTo24Hour(b.split(' - ')[0]);
+                return timeA.localeCompare(timeB);
+            });
+            
+            // Sort divisions alphabetically
+            divisions.sort();
+            
+            // Populate time filter
+            times.forEach(time => {
+                const option = document.createElement('option');
+                option.value = time;
+                option.textContent = time;
+                timeFilter.appendChild(option);
+            });
+            
+            // Populate division filter
+            divisions.forEach(division => {
+                const option = document.createElement('option');
+                option.value = division;
+                option.textContent = division;
+                divisionFilter.appendChild(option);
+            });
+        }
+
+        function convertTo24Hour(timeStr) {
+            // Handle special cases
+            if (timeStr.toLowerCase() === 'noon') {
+                return '12:00';
+            }
+            
+            const parts = timeStr.split(' ');
+            const time = parts[0];
+            const period = parts[1];
+            
+            let [hours, minutes] = time.split(':');
+            hours = parseInt(hours);
+            
+            // If no period is specified, assume it's already in 24-hour format or handle special cases
+            if (!period) {
+                return `${hours.toString().padStart(2, '0')}:${minutes || '00'}`;
+            }
+            
+            if (period.toLowerCase() === 'p.m.' && hours !== 12) {
+                hours += 12;
+            } else if (period.toLowerCase() === 'a.m.' && hours === 12) {
+                hours = 0;
+            }
+            
+            return `${hours.toString().padStart(2, '0')}:${minutes || '00'}`;
+        }
+
+        function filterSessions() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const dayFilter = document.getElementById('dayFilter').value;
+            const timeFilter = document.getElementById('timeFilter').value;
+            const divisionFilter = document.getElementById('divisionFilter').value;
+            
+            window.scheduleApp.filteredSessions = window.scheduleApp.allSessions.filter(session => {
+                // Day filter
+                if (dayFilter && session.day !== dayFilter) {
+                    return false;
+                }
+                
+                // Time filter
+                if (timeFilter && `${session.start_time} - ${session.end_time}` !== timeFilter) {
+                    return false;
+                }
+                
+                // Division filter
+                if (divisionFilter && session.division !== divisionFilter) {
+                    return false;
+                }
+                
+                // Search filter
+                if (searchTerm) {
+                    const searchableText = [
+                        session.title,
+                        session.description,
+                        session.division,
+                        session.moderator?.name,
+                        session.moderator?.institution,
+                        ...(session.panelists || []).map(p => [
+                            p.name,
+                            p.institution,
+                            p.paper_title,
+                            ...(p.authors || []).map(a => `${a.name} ${a.institution}`)
+                        ].join(' '))
+                    ].filter(Boolean).join(' ').toLowerCase();
+                    
+                    return searchableText.includes(searchTerm);
+                }
+                
+                return true;
+            });
+            
+            displaySessions();
+        }
+
+        function displaySessions() {
+            const container = document.getElementById('sessionsContainer');
+            const resultsInfo = document.getElementById('resultsInfo');
+            
+            resultsInfo.textContent = `Showing ${window.scheduleApp.filteredSessions.length} of ${window.scheduleApp.allSessions.length} sessions`;
+            
+            if (window.scheduleApp.filteredSessions.length === 0) {
+                container.innerHTML = `
+                    <div class="no-results">
+                        <h3>No sessions found</h3>
+                        <p>Try adjusting your search criteria or clearing the filters.</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            // Group sessions by day, then by time
+            const sessionsByDayAndTime = {};
+            window.scheduleApp.filteredSessions.forEach(session => {
+                if (!sessionsByDayAndTime[session.day]) {
+                    sessionsByDayAndTime[session.day] = {};
+                }
+                const timeKey = `${session.start_time} - ${session.end_time}`;
+                if (!sessionsByDayAndTime[session.day][timeKey]) {
+                    sessionsByDayAndTime[session.day][timeKey] = [];
+                }
+                sessionsByDayAndTime[session.day][timeKey].push(session);
+            });
+            
+            // Sort days
+            const dayOrder = ['Thursday', 'Friday', 'Saturday', 'Sunday'];
+            const sortedDays = Object.keys(sessionsByDayAndTime).sort((a, b) => {
+                return dayOrder.indexOf(a) - dayOrder.indexOf(b);
+            });
+            
+            container.innerHTML = sortedDays.map(day => {
+                const dayData = sessionsByDayAndTime[day];
+                
+                // Sort time groups chronologically
+                const sortedTimes = Object.keys(dayData).sort((a, b) => {
+                    const timeA = convertTo24Hour(a.split(' - ')[0]);
+                    const timeB = convertTo24Hour(b.split(' - ')[0]);
+                    return timeA.localeCompare(timeB);
+                });
+                
+                return `
+                    <div class="day-group">
+                        <div class="day-header">${day}, August ${getDayNumber(day)}, 2025</div>
+                        ${sortedTimes.map(timeKey => {
+                            const sessions = dayData[timeKey];
+                            return `
+                                <div class="time-group">
+                                    <div class="time-header">${timeKey}</div>
+                                    ${sessions.map(session => createSessionHTML(session)).join('')}
+                                </div>
+                            `;
+                        }).join('')}
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function getDayNumber(day) {
+            const dayNumbers = {
+                'Thursday': '7',
+                'Friday': '8',
+                'Saturday': '9',
+                'Sunday': '10'
+            };
+            return dayNumbers[day] || '';
+        }
+
+        function createSessionHTML(session) {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            
+            function highlightText(text) {
+                if (!searchTerm || !text) return text || '';
+                const regex = new RegExp(`(${searchTerm})`, 'gi');
+                return text.replace(regex, '<span class="highlight">$1</span>');
+            }
+            
+            return `
+                <div class="session">
+                    <div class="session-header">
+                        <div class="session-time">${session.start_time} - ${session.end_time}</div>
+                        <div class="session-info">
+                            <div class="session-title">${highlightText(session.title)}</div>
+                            <div class="session-division">${highlightText(session.division)}</div>
+                            ${session.moderator ? `
+                                <div class="session-moderator">
+                                    <strong>Moderator:</strong> ${highlightText(session.moderator.name)}, ${highlightText(session.moderator.institution)}
+                                </div>
+                            ` : ''}
+                        </div>
+                    </div>
+                    
+                    ${session.description ? `
+                        <div class="session-description">${highlightText(session.description)}</div>
+                    ` : ''}
+                    
+                    ${session.panelists && session.panelists.length > 0 ? `
+                        <div class="panelists">
+                            <h4>Panelists & Papers</h4>
+                            ${session.panelists.map(panelist => `
+                                <div class="panelist">
+                                    ${panelist.paper_title ? `
+                                        <div class="paper-title">${highlightText(panelist.paper_title)}</div>
+                                    ` : ''}
+                                    ${panelist.authors ? `
+                                        <div class="panelist-name">
+                                            ${panelist.authors.map(author => 
+                                                `${highlightText(author.name)}${author.institution ? ` (${highlightText(author.institution)})` : ''}`
+                                            ).join(', ')}
+                                        </div>
+                                    ` : panelist.name ? `
+                                        <div class="panelist-name">${highlightText(panelist.name)}</div>
+                                        ${panelist.institution ? `
+                                            <div class="panelist-institution">${highlightText(panelist.institution)}</div>
+                                        ` : ''}
+                                    ` : ''}
+                                    ${panelist.role ? `
+                                        <div class="panelist-institution"><strong>${panelist.role}</strong></div>
+                                    ` : ''}
+                                    ${panelist.topic ? `
+                                        <div class="panelist-institution"><strong>Topic:</strong> ${highlightText(panelist.topic)}</div>
+                                    ` : ''}
+                                </div>
+                            `).join('')}
+                        </div>
+                    ` : ''}
+                </div>
+            `;
+        }
+
+        function clearAllFilters() {
+            document.getElementById('dayFilter').value = '';
+            document.getElementById('searchInput').value = '';
+            document.getElementById('timeFilter').value = '';
+            document.getElementById('divisionFilter').value = '';
+            filterSessions();
+        }
+
+        // Event listeners
+        document.getElementById('dayFilter').addEventListener('change', filterSessions);
+        document.getElementById('searchInput').addEventListener('input', filterSessions);
+        document.getElementById('timeFilter').addEventListener('change', filterSessions);
+        document.getElementById('divisionFilter').addEventListener('change', filterSessions);
+
+        // Initialize when page loads
+        document.addEventListener('DOMContentLoaded', loadAllSessions);
+    </script>
+</body>
+</html>
