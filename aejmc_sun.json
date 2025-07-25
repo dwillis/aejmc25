@@ -1,342 +1,355 @@
 [
   {
-    "date": "Sunday, August 10, 2025",
-    "start_time": "7:30 a.m.",
-    "end_time": "9:15 a.m.",
+    "date": "2025-08-10",
+    "start_time": "07:30",
+    "end_time": "09:15",
     "division": "Association of Schools of Journalism and Mass Communication",
     "title": "2025-26 Council of Divisions Meeting",
     "moderator": {
-      "name": "Avery Holton, Utah, 2025-26 chair, Council of Divisions and Lindita Camaj, Florida, 2025-26 vice chair, Council of Divisions",
+      "name": "Avery Holton, Utah, 2025-26 Council of Divisions Chair and Lindita Camaj, Florida, 2025-26 Council of Divisions Vice Chair",
       "institution": null
     },
-    "description": null,
+    "description": "Business Session for the 2025-26 Council of Divisions.",
     "panelists": []
   },
   {
-    "date": "Sunday, August 10, 2025",
-    "start_time": "9:45 a.m.",
-    "end_time": "11:00 a.m.",
+    "date": "2025-08-10",
+    "start_time": "07:30",
+    "end_time": "09:15",
+    "division": "James W. Foley Legacy Foundation",
+    "title": "The James W. Foley Journalism Safety Modules",
+    "moderator": {
+      "name": "Diane Foley",
+      "institution": "Foley Legacy Foundation, Executive Diretor"
+    },
+    "description": "The James W. Foley Journalism Safety Modules are intended to help educators at the undergraduate level create a culture that promotes safety for all journalism and communications students. In these 14 modules, students learn about completing risk assessments, responsibilities of newsroom managers, safety of female and minority journalists, covering civil unrest, emotional self-care, care of sources, interviewing hostile sources, understanding journalists' rights, the importance of diversity in newsrooms, reporting on foreign conflicts, protecting digital data, dealing with online harassment, covering weather-related stories, reporting during the COVID-19 pandemic, specific risks of photojournalists and surviving hostage-taking or wrongful detention. By invitation only.",
+    "panelists": []
+  },
+  {
+    "date": "2025-08-10",
+    "start_time": "09:45",
+    "end_time": "11:00",
     "division": "Communicating Science, Health, Environment and Risk Division",
     "title": "Constructing Meaningful Stories: Journalists, News Frames, and Audience Impact",
     "moderator": {
       "name": "Pechulano Ngwe Ali",
       "institution": "Wisconsin-Eau Claire"
     },
-    "description": null,
+    "description": "A refereed research paper session on constructing meaningful stories in journalism.",
     "panelists": [
       {
-        "paper_title": "Challenges and Opportunities for Environmental Journalism Training: Experiences from Three Latin American Countries",
         "name": "Eric Freedman",
-        "institution": "Michigan State"
+        "institution": "Michigan State",
+        "paper_title": "Challenges and Opportunities for Environmental Journalism Training: Experiences from Three Latin American Countries"
       },
       {
-        "paper_title": "Challenges and Opportunities for Environmental Journalism Training: Experiences from Three Latin American Countries",
         "name": "Bruno Takahashi",
-        "institution": "Michigan State"
+        "institution": "Michigan State",
+        "paper_title": "Challenges and Opportunities for Environmental Journalism Training: Experiences from Three Latin American Countries"
       },
       {
-        "paper_title": "Challenges and Opportunities for Environmental Journalism Training: Experiences from Three Latin American Countries",
         "name": "Julia Belden",
-        "institution": "Michigan State"
+        "institution": "Michigan State",
+        "paper_title": "Challenges and Opportunities for Environmental Journalism Training: Experiences from Three Latin American Countries"
       },
       {
-        "paper_title": "Challenges and Opportunities for Environmental Journalism Training: Experiences from Three Latin American Countries",
         "name": "Gisele Souza Neuls",
-        "institution": "Michigan State"
+        "institution": "Michigan State",
+        "paper_title": "Challenges and Opportunities for Environmental Journalism Training: Experiences from Three Latin American Countries"
       },
       {
-        "paper_title": "Challenges and Opportunities for Environmental Journalism Training: Experiences from Three Latin American Countries",
-        "name": "lasmim Amiden dos Santos",
-        "institution": "Michigan State"
+        "name": "Iasmim Amiden dos Santos",
+        "institution": "Michigan State",
+        "paper_title": "Challenges and Opportunities for Environmental Journalism Training: Experiences from Three Latin American Countries"
       },
       {
-        "paper_title": "Care-Based Practices in Health News: Why and How U.S. Health Journalists Include Exemplars in their Reporting",
         "name": "Rachel Young",
-        "institution": "Iowa"
+        "institution": "Iowa",
+        "paper_title": "Care-Based Practices in Health News: Why and How U.S. Health Journalists Include Exemplars in their Reporting"
       },
       {
-        "paper_title": "Care-Based Practices in Health News: Why and How U.S. Health Journalists Include Exemplars in their Reporting",
         "name": "Munachim Amah",
-        "institution": "Iowa"
+        "institution": "Iowa",
+        "paper_title": "Care-Based Practices in Health News: Why and How U.S. Health Journalists Include Exemplars in their Reporting"
       },
       {
-        "paper_title": "Care-Based Practices in Health News: Why and How U.S. Health Journalists Include Exemplars in their Reporting",
         "name": "Amanda Hinnant",
-        "institution": "Missouri"
+        "institution": "Missouri",
+        "paper_title": "Care-Based Practices in Health News: Why and How U.S. Health Journalists Include Exemplars in their Reporting"
       },
       {
-        "paper_title": "Care-Based Practices in Health News: Why and How U.S. Health Journalists Include Exemplars in their Reporting",
         "name": "María Len-Ríos",
-        "institution": "Minnesota"
+        "institution": "Minnesota",
+        "paper_title": "Care-Based Practices in Health News: Why and How U.S. Health Journalists Include Exemplars in their Reporting"
       },
       {
-        "paper_title": "Unpacking Framing in Data Journalism: Analyzing Narratives of Declining U.S. Life Expectancy",
         "name": "Taylor Sheridan",
-        "institution": "Missouri"
+        "institution": "Missouri",
+        "paper_title": "Unpacking Framing in Data Journalism: Analyzing Narratives of Declining U.S. Life Expectancy"
       },
       {
-        "paper_title": "Unpacking Framing in Data Journalism: Analyzing Narratives of Declining U.S. Life Expectancy",
         "name": "Carlo Byrd",
-        "institution": "Texas at Austin"
+        "institution": "Texas at Austin",
+        "paper_title": "Unpacking Framing in Data Journalism: Analyzing Narratives of Declining U.S. Life Expectancy"
       },
       {
-        "paper_title": "How a \"Black Swan\" Fades: Diachronic and Politically-driven Frame Analysis of Philippine Media's Coverage of Local Terrorist Group (1996-2024)",
         "name": "Hongsheng Huang",
-        "institution": "Shanghai International Studies University"
+        "institution": "Shanghai International Studies University",
+        "paper_title": "How a \"Black Swan\" Fades: Diachronic and Politically-driven Frame Analysis of Philippine Media's Coverage of Local Terrorist Group (1996-2024)"
       },
       {
-        "paper_title": "How a \"Black Swan\" Fades: Diachronic and Politically-driven Frame Analysis of Philippine Media's Coverage of Local Terrorist Group (1996-2024)",
         "name": "Hao Jiang",
-        "institution": "Shanghai International Studies University"
+        "institution": "Shanghai International Studies University",
+        "paper_title": "How a \"Black Swan\" Fades: Diachronic and Politically-driven Frame Analysis of Philippine Media's Coverage of Local Terrorist Group (1996-2024)"
       },
       {
-        "paper_title": "Racial Attitudes and the Unequal Impacts of Climate Change: How Emphasizing Class or Race in News Stories Influences Public Perceptions and Support for Climate Policies",
         "name": "P. Sol Hart",
-        "institution": "Michigan"
+        "institution": "Michigan",
+        "paper_title": "Racial Attitudes and the Unequal Impacts of Climate Change: How Emphasizing Class or Race in News Stories Influences Public Perceptions and Support for Climate Policies"
       },
       {
-        "paper_title": "Racial Attitudes and the Unequal Impacts of Climate Change: How Emphasizing Class or Race in News Stories Influences Public Perceptions and Support for Climate Policies",
         "name": "Lauren Feldman",
-        "institution": "Rutgers"
+        "institution": "Rutgers",
+        "paper_title": "Racial Attitudes and the Unequal Impacts of Climate Change: How Emphasizing Class or Race in News Stories Influences Public Perceptions and Support for Climate Policies"
       },
       {
-        "paper_title": "Racial Attitudes and the Unequal Impacts of Climate Change: How Emphasizing Class or Race in News Stories Influences Public Perceptions and Support for Climate Policies",
         "name": "Soobin Choi",
-        "institution": "Ewha Woman's University"
+        "institution": "Ewha Woman's University",
+        "paper_title": "Racial Attitudes and the Unequal Impacts of Climate Change: How Emphasizing Class or Race in News Stories Influences Public Perceptions and Support for Climate Policies"
       },
       {
-        "paper_title": "Racial Attitudes and the Unequal Impacts of Climate Change: How Emphasizing Class or Race in News Stories Influences Public Perceptions and Support for Climate Policies",
         "name": "Annie Zhang",
-        "institution": "Michigan"
+        "institution": "Michigan",
+        "paper_title": "Racial Attitudes and the Unequal Impacts of Climate Change: How Emphasizing Class or Race in News Stories Influences Public Perceptions and Support for Climate Policies"
       },
       {
-        "paper_title": "News Sentiment Toward Undocumented Migrant Healthcare Coverage in the United States",
         "name": "Ugochukwu Madu",
-        "institution": "Iowa"
+        "institution": "Iowa",
+        "paper_title": "News Sentiment Toward Undocumented Migrant Healthcare Coverage in the United States"
       },
       {
-        "paper_title": "News Sentiment Toward Undocumented Migrant Healthcare Coverage in the United States",
         "name": "Erblin Shehu",
-        "institution": "Iowa"
+        "institution": "Iowa",
+        "paper_title": "News Sentiment Toward Undocumented Migrant Healthcare Coverage in the United States"
       },
       {
-        "role": "Discussant",
         "name": "Ronald Yaros",
-        "institution": "Maryland"
+        "institution": "Maryland",
+        "paper_title": "Discussant"
       }
     ]
   },
   {
-    "date": "Sunday, August 10, 2025",
-    "start_time": "9:45 a.m.",
-    "end_time": "11:00 a.m.",
+    "date": "2025-08-10",
+    "start_time": "09:45",
+    "end_time": "11:00",
     "division": "Communication Technology Division",
     "title": "What's New in News? Communication Technology Meets Journalism",
     "moderator": {
-      "name": "Anne Oeldorf-Hirsch",
-      "institution": "Connecticut"
+      "name": "K. Hazel Kwon",
+      "institution": "Arizona State"
     },
-    "description": null,
+    "description": "A refereed research paper session on the intersection of communication technology and journalism.",
     "panelists": [
       {
-        "paper_title": "Applied Al in Broadcast Journalism Education",
         "name": "William Kaufhold",
-        "institution": "Texas State University"
+        "institution": "Texas State University",
+        "paper_title": "Applied Al in Broadcast Journalism Education"
       },
       {
-        "paper_title": "Applied Al in Broadcast Journalism Education",
         "name": "Heidi Makady",
-        "institution": "Texas State"
+        "institution": "Texas State University",
+        "paper_title": "Applied Al in Broadcast Journalism Education"
       },
       {
-        "paper_title": "Applied Al in Broadcast Journalism Education",
         "name": "Mark Mederson",
-        "institution": "Texas State"
+        "institution": "Texas State University",
+        "paper_title": "Applied Al in Broadcast Journalism Education"
       },
       {
-        "paper_title": "Applied Al in Broadcast Journalism Education",
         "name": "Eun Jeong Lee",
-        "institution": "Texas State"
+        "institution": "Texas State",
+        "paper_title": "Applied Al in Broadcast Journalism Education"
       },
       {
-        "paper_title": "Visibility for Local News",
         "name": "Daniel Trielli",
-        "institution": "Maryland"
+        "institution": "Maryland",
+        "paper_title": "Visibility for Local News"
       },
       {
-        "paper_title": "Visibility for Local News",
         "name": "Yara Mabrouk",
-        "institution": "Maryland"
+        "institution": "Maryland",
+        "paper_title": "Visibility for Local News"
       },
       {
-        "paper_title": "Visibility for Local News",
         "name": "Diana Krovvidi",
-        "institution": "Maryland"
+        "institution": "Maryland",
+        "paper_title": "Visibility for Local News"
       },
       {
-        "paper_title": "[EA] Perceptions of Al-Generated News: An Experiment on Disclosure Type and Timing",
         "name": "Jacob Long",
-        "institution": "South Carolina"
+        "institution": "South Carolina",
+        "paper_title": "[EA] Perceptions of Al-Generated News: An Experiment on Disclosure Type and Timing"
       },
       {
-        "paper_title": "[EA] Perceptions of Al-Generated News: An Experiment on Disclosure Type and Timing",
         "name": "Chinwendu Akalonu",
-        "institution": "South Carolina"
+        "institution": "South Carolina",
+        "paper_title": "[EA] Perceptions of Al-Generated News: An Experiment on Disclosure Type and Timing"
       },
       {
-        "paper_title": "[EA] Perceptions of Al-Generated News: An Experiment on Disclosure Type and Timing",
         "name": "Carrie Jingyi Xiao",
-        "institution": "South Carolina"
+        "institution": "South Carolina",
+        "paper_title": "[EA] Perceptions of Al-Generated News: An Experiment on Disclosure Type and Timing"
       },
       {
-        "paper_title": "[EA] Perceptions of Al-Generated News: An Experiment on Disclosure Type and Timing",
-        "name": "Ertan Ağaoğlu",
-        "institution": "South Carolina"
+        "name": "Ertan Agaoglu",
+        "institution": "South Carolina",
+        "paper_title": "[EA] Perceptions of Al-Generated News: An Experiment on Disclosure Type and Timing"
       },
       {
-        "paper_title": "[EA] Perceptions of Al-Generated News: An Experiment on Disclosure Type and Timing",
         "name": "Shamira McCray",
-        "institution": "South Carolina"
+        "institution": "South Carolina",
+        "paper_title": "[EA] Perceptions of Al-Generated News: An Experiment on Disclosure Type and Timing"
       },
       {
-        "paper_title": "Seeing Through the Fake: How Users Detect and Interpret Deepfakes",
         "name": "Don Shin",
-        "institution": "Texas Tech"
+        "institution": "Texas Tech",
+        "paper_title": "Seeing Through the Fake: How Users Detect and Interpret Deepfakes"
       },
       {
-        "paper_title": "When News Finds You: Algorithm Audit of Incidental Exposure to Mainstream News on Chinese Video Platforms",
         "name": "Peiying Wu",
-        "institution": "Tsinghua University"
+        "institution": "Tsinghua University",
+        "paper_title": "When News Finds You: Algorithm Audit of Incidental Exposure to Mainstream News on Chinese Video Platforms"
       },
       {
-        "paper_title": "When News Finds You: Algorithm Audit of Incidental Exposure to Mainstream News on Chinese Video Platforms",
         "name": "Yunwen Sun",
-        "institution": "Beijing Normal University"
+        "institution": "Beijing Normal University",
+        "paper_title": "When News Finds You: Algorithm Audit of Incidental Exposure to Mainstream News on Chinese Video Platforms"
       },
       {
-        "paper_title": "When News Finds You: Algorithm Audit of Incidental Exposure to Mainstream News on Chinese Video Platforms",
         "name": "Qian Liu",
-        "institution": "Beijing Normal University"
+        "institution": "Beijing Normal University",
+        "paper_title": "When News Finds You: Algorithm Audit of Incidental Exposure to Mainstream News on Chinese Video Platforms"
       },
       {
-        "paper_title": "When News Finds You: Algorithm Audit of Incidental Exposure to Mainstream News on Chinese Video Platforms",
         "name": "Mengye Yang",
-        "institution": null
+        "institution": "Beijing Normal University",
+        "paper_title": "When News Finds You: Algorithm Audit of Incidental Exposure to Mainstream News on Chinese Video Platforms"
       },
       {
-        "role": "Discussant",
-        "name": "Anne Oeldorf-Hirsch",
-        "institution": "Connecticut"
+        "name": "K. Hazel Kwon",
+        "institution": "Arizona State",
+        "paper_title": "Discussant"
       }
     ]
   },
   {
-    "date": "Sunday, August 10, 2025",
-    "start_time": "9:45 a.m.",
-    "end_time": "11:00 a.m.",
+    "date": "2025-08-10",
+    "start_time": "09:45",
+    "end_time": "11:00",
     "division": "International Communication Division",
     "title": "Global Storytelling in Flux: Power, Platforms, and the New Frontiers of Communication",
     "moderator": {
       "name": "Vanessa de Macedo Higgins Joyce",
       "institution": "Texas State"
     },
-    "description": null,
+    "description": "A refereed research paper session on global storytelling.",
     "panelists": [
       {
-        "paper_title": "Media Ethics in the Caribbean: Reporting on Natural Disasters",
         "name": "Juliette Storr",
-        "institution": "Pennsylvania State"
+        "institution": "Pennsylvania State",
+        "paper_title": "Media Ethics in the Caribbean: Reporting on Natural Disasters"
       },
       {
-        "paper_title": "Winning the Hearts and Minds – Gauging the Influence of Perceived Power and Public Diplomacy on Attitudes toward the Superpowers",
         "name": "Benita Dederichs",
-        "institution": "Boston"
+        "institution": "Boston",
+        "paper_title": "Winning the Hearts and Minds – Gauging the Influence of Perceived Power and Public Diplomacy on Attitudes toward the Superpowers"
       },
       {
-        "paper_title": "Winning the Hearts and Minds – Gauging the Influence of Perceived Power and Public Diplomacy on Attitudes toward the Superpowers",
         "name": "Denis Wu",
-        "institution": "Boston"
+        "institution": "Boston",
+        "paper_title": "Winning the Hearts and Minds – Gauging the Influence of Perceived Power and Public Diplomacy on Attitudes toward the Superpowers"
       },
       {
-        "paper_title": "[EA] Who Speaks When VOA Falls Silent? Critical Discourse Analysis of Media Portrayals of VOA Dismantling",
         "name": "Sunha Yeo",
-        "institution": "Oklahoma"
+        "institution": "Oklahoma",
+        "paper_title": "[EA] Who Speaks When VOA Falls Silent? Critical Discourse Analysis of Media Portrayals of VOA Dismantling"
       },
       {
-        "paper_title": "[EA] Who Speaks When VOA Falls Silent? Critical Discourse Analysis of Media Portrayals of VOA Dismantling",
         "name": "Jizhou Ye",
-        "institution": "Oklahoma"
+        "institution": "Oklahoma",
+        "paper_title": "[EA] Who Speaks When VOA Falls Silent? Critical Discourse Analysis of Media Portrayals of VOA Dismantling"
       },
       {
-        "paper_title": "The Frames of the COVID-19: How the International Press Had Covered the Worldwide Pandemic",
         "name": "Kuang-Kuo Chang",
-        "institution": "Shih Hsin University"
+        "institution": "Shih Hsin University",
+        "paper_title": "The Frames of the COVID-19: How the International Press Had Covered the Worldwide Pandemic"
       },
       {
-        "paper_title": "Three Worlds Imagined through News: A Cross-National Analysis of Country-Based Issue Ownership Networks",
         "name": "Zhuoyu Wang",
-        "institution": "Fudan University"
+        "institution": "Fudan University",
+        "paper_title": "Three Worlds Imagined through News: A Cross-National Analysis of Country-Based Issue Ownership Networks"
       },
       {
-        "paper_title": "Three Worlds Imagined through News: A Cross-National Analysis of Country-Based Issue Ownership Networks",
         "name": "Lei Guo",
-        "institution": "Fudan University"
+        "institution": "Fudan University",
+        "paper_title": "Three Worlds Imagined through News: A Cross-National Analysis of Country-Based Issue Ownership Networks"
       },
       {
-        "paper_title": "Three Worlds Imagined through News: A Cross-National Analysis of Country-Based Issue Ownership Networks",
         "name": "Mengmeng Wu",
-        "institution": "Chicago University"
+        "institution": "Chicago University",
+        "paper_title": "Three Worlds Imagined through News: A Cross-National Analysis of Country-Based Issue Ownership Networks"
       },
       {
-        "paper_title": "Three Worlds Imagined through News: A Cross-National Analysis of Country-Based Issue Ownership Networks",
         "name": "Chris Vargo",
-        "institution": "Colorado-Boulder"
+        "institution": "Colorado-Boulder",
+        "paper_title": "Three Worlds Imagined through News: A Cross-National Analysis of Country-Based Issue Ownership Networks"
       },
       {
-        "role": "Discussant",
         "name": "Margaretha Geertsema-Sligh",
-        "institution": "Butler"
+        "institution": "Butler",
+        "paper_title": "Discussant"
       }
     ]
   },
   {
-    "date": "Sunday, August 10, 2025",
-    "start_time": "9:45 a.m.",
-    "end_time": "11:00 a.m.",
+    "date": "2025-08-10",
+    "start_time": "09:45",
+    "end_time": "11:00",
     "division": "Magazine Media Division",
     "title": "From Covers to Courtrooms: The Cultural Power of Magazine Journalism Past and Present",
     "moderator": {
       "name": "Ivy Ashe",
       "institution": "Florida Atlantic"
     },
-    "description": null,
+    "description": "A refereed research paper session on the cultural power of magazine journalism.",
     "panelists": [
       {
-        "paper_title": "Chilled Out: Eros and Ralph Ginzburg and How the Government Killed a Magazine",
         "name": "Roy Gutterman",
-        "institution": "Syracuse"
+        "institution": "Syracuse",
+        "paper_title": "Chilled Out: Eros and Ralph Ginzburg and How the Government Killed a Magazine"
       },
       {
-        "paper_title": "Framing Foreign Power in American-Backed Warfare: Revisiting Time Magazine's Cover Portraits during the Vietnam War",
         "name": "Huyen Nguyen",
-        "institution": "Kansas State"
+        "institution": "Kansas State",
+        "paper_title": "Framing Foreign Power in American-Backed Warfare: Revisiting Time Magazine's Cover Portraits during the Vietnam War"
       },
       {
-        "paper_title": "[EA] Lifestyle Journalists, Influencers ... Newsfluencers? How Audiences Perceive Lifestyle Journalists Versus Social Media Influencers",
         "name": "Lydia Cheng",
-        "institution": "Nanyang Technological University, Singapore"
+        "institution": "Nanyang Technological University, Singapore",
+        "paper_title": "[EA] Lifestyle Journalists, Influencers ... Newsfluencers? How Audiences Perceive Lifestyle Journalists Versus Social Media Influencers"
       },
       {
-        "role": "Discussant",
         "name": "Ivy Ashe",
-        "institution": "Florida Atlantic"
+        "institution": "Florida Atlantic",
+        "paper_title": "Discussant"
       }
     ]
   },
   {
-    "date": "Sunday, August 10, 2025",
-    "start_time": "9:45 a.m.",
-    "end_time": "11:00 a.m.",
+    "date": "2025-08-10",
+    "start_time": "09:45",
+    "end_time": "11:00",
     "division": "Mass Communication and Society and Communication Theory and Methodology Divisions",
     "title": "The Trump Effect on Journalism: Revisiting the Social Responsibility Theory of the Press",
     "moderator": {
@@ -368,16 +381,16 @@
     ]
   },
   {
-    "date": "Sunday, August 10, 2025",
-    "start_time": "9:45 a.m.",
-    "end_time": "11:00 a.m.",
+    "date": "2025-08-10",
+    "start_time": "09:45",
+    "end_time": "11:00",
     "division": "Media Ethics and Broadcast and Mobile Journalism Divisions",
     "title": "Care Ethics and DEI in Media",
     "moderator": {
       "name": "Tara Walker",
       "institution": "St. Bonaventure"
     },
-    "description": "Care ethics is a lens through which to understand diversity, equity and inclusion issues in media. The scholars on this panel present perspectives on care ethics from an array of media disciplines. Tammy Matthews will discuss how care ethics relates to various gender-based representations. Tara Walker's research focuses on mental health and public health representations in media, and how care is or isn't a part of these representations. Joseph Jones looks at how care ethics can decolonize traditional journalism and conceptualizes care ethics as applied to food journalism, fashion journalism, and the use of Al in the political economy of digital media.",
+    "description": "Care ethics is a lens through which to understand diversity, equity and inclusion issues in media. The scholars on this panel present perspectives on care ethics from an array of media disciplines.",
     "panelists": [
       {
         "name": "Tammy Rae Matthews",
@@ -398,9 +411,9 @@
     ]
   },
   {
-    "date": "Sunday, August 10, 2025",
-    "start_time": "9:45 a.m.",
-    "end_time": "11:00 a.m.",
+    "date": "2025-08-10",
+    "start_time": "09:45",
+    "end_time": "11:00",
     "division": "Media Management, Economics and Entrepreneurship Division",
     "title": "Al and Creator Economy",
     "moderator": {
@@ -410,107 +423,77 @@
     "description": "This panel will showcase research on how artificial intelligence is affecting the Creator Economy. The five panelists will present the topic from different perspectives.",
     "panelists": [
       {
-        "paper_title": "Balancing Innovation and Fairness in Al in the Creator Economy",
         "name": "Changfeng Chen",
-        "institution": "Tsinghua University, China"
+        "institution": "Tsinghua University, China",
+        "paper_title": "Balancing Innovation and Fairness in Al in the Creator Economy"
       },
       {
-        "paper_title": "Why Celebrities Underperform as Brand Influencers on TikTok: Insights from Al-facilitated Studies",
         "name": "Kineta Hung",
-        "institution": "Hong Kong Baptist University"
+        "institution": "Hong Kong Baptist University",
+        "paper_title": "Why Celebrities Underperform as Brand Influencers on TikTok: Insights from Al-facilitated Studies"
       },
       {
-        "paper_title": "Al to Generate Content for Journalists for Religious Occasions",
         "name": "Mohammad Abuljadail",
-        "institution": "King Abdulaziz University, Saudi Arabia"
+        "institution": "King Abdulaziz University, Saudi Arabia",
+        "paper_title": "Al to Generate Content for Journalists for Religious Occasions"
       },
       {
-        "paper_title": "News Media's Coverage of Al and Creator Economy on Facebook, Instagram, X and TikTok",
         "name": "Hyacinth Bangero",
-        "institution": "Bowling Green State"
+        "institution": "Bowling Green State",
+        "paper_title": "News Media's Coverage of Al and Creator Economy on Facebook, Instagram, X and TikTok"
       },
       {
-        "paper_title": "Why Audiences Like to Watch Al Generated Videos (Rather than Human Created Videos)",
         "name": "Man Luo",
-        "institution": "Bowling Green State"
+        "institution": "Bowling Green State",
+        "paper_title": "Why Audiences Like to Watch Al Generated Videos (Rather than Human Created Videos)"
       }
     ]
   },
   {
-    "date": "Sunday, August 10, 2025",
-    "start_time": "9:45 a.m.",
-    "end_time": "11:00 a.m.",
+    "date": "2025-08-10",
+    "start_time": "09:45",
+    "end_time": "11:00",
     "division": "Public Relations Division",
     "title": "GIFTS High Density Session",
     "moderator": {
       "name": "Minhee Choi",
       "institution": "Texas Tech"
     },
-    "description": null,
+    "description": "A high-density refereed research paper session on GIFTS.",
     "panelists": [
       {
-        "paper_title": "Developing Critical Thinking Skills in PR courses: Teaching Students to Be Gatekeepers of Generative Al-Created Content",
         "name": "Nandini Bhalla",
-        "institution": "Texas State"
+        "institution": "Texas State",
+        "paper_title": "Developing Critical Thinking Skills in PR courses: Teaching Students to Be Gatekeepers of Generative Al-Created Content"
       },
       {
-        "paper_title": "Developing Critical Thinking Skills in PR courses: Teaching Students to Be Gatekeepers of Generative Al-Created Content",
         "name": "Paul Villagran",
-        "institution": "Texas State"
+        "institution": "Texas State",
+        "paper_title": "Developing Critical Thinking Skills in PR courses: Teaching Students to Be Gatekeepers of Generative Al-Created Content"
       },
       {
-        "paper_title": "Teaching Outside the Classroom: Conducting Research or PR Brand Activation through Ethnographic Exploration",
         "name": "Janis Page",
-        "institution": "Illinois, Chicago"
+        "institution": "Illinois, Chicago",
+        "paper_title": "Teaching Outside the Classroom: Conducting Research or PR Brand Activation through Ethnographic Exploration"
       },
       {
-        "paper_title": "Analyzing Corporate Communication through an Examination of Website Content",
         "name": "Nagwan Zahry",
-        "institution": "Tennessee at Chattanooga"
-      },
-      {
-        "paper_title": "Bridging Student Learning to Professional Development: Fostering Personal Brand Building through LinkedIn Articles",
-        "name": "Amanda Weed",
-        "institution": "Kennesaw State"
-      },
-      {
-        "paper_title": "Enhancing Writing Through Research: Motivating Students to Use the University Writing Center",
-        "name": "Nandini Bhalla",
-        "institution": "Texas State"
-      },
-      {
-        "paper_title": "Enhancing Target Audience Development with Al and Data Integration",
-        "name": "Hunter Overton",
-        "institution": "Pennsylvania State"
-      },
-      {
-        "paper_title": "Podcasts for Teaching PR: Using Student-Created Podcasts to Introduce Career Opportunities in Public Relations",
-        "name": "Brenda Wilson",
-        "institution": "Tennessee Tech"
-      },
-      {
-        "paper_title": "Reacting to the Past to Engage the Present: Teaching PR with Greenwich Village 1913",
-        "name": "Josh Watson",
-        "institution": "Oklahoma Christian"
-      },
-      {
-        "role": "Discussant",
-        "name": "Erika Schneider",
-        "institution": "Syracuse"
+        "institution": "Tennessee at Chattanooga",
+        "paper_title": "Analyzing Corporate Communication through an Examination of Website Content"
       }
     ]
   },
   {
-    "date": "Sunday, August 10, 2025",
-    "start_time": "9:45 a.m.",
-    "end_time": "11:00 a.m.",
+    "date": "2025-08-10",
+    "start_time": "09:45",
+    "end_time": "11:00",
     "division": "Visual Communication and Minorities and Communication Divisions",
     "title": "Diversity in Leadership: Exploring the Role of Inclusive-Minded Leaders in Transforming Visual Communication",
     "moderator": {
       "name": "Lisa Krantz",
       "institution": "Montana"
     },
-    "description": "This panel will explore the critical role that diverse and inclusive-minded leadership plays in shaping the future of visual communication across various media industries—such as journalism, advertising, and media production.",
+    "description": "This panel will explore the critical role that diverse and inclusive-minded leadership plays in shaping the future of visual communication across various media industries-such as journalism, advertising, and media production.",
     "panelists": [
       {
         "name": "Lisa Krantz",
@@ -523,102 +506,140 @@
       {
         "name": "Deborah Chung",
         "institution": "Kentucky"
+      },
+      {
+        "name": "Gabriel B. Tait",
+        "institution": "Ball State"
       }
     ]
   },
   {
-    "date": "Sunday, August 10, 2025",
-    "start_time": "9:45 a.m.",
-    "end_time": "11:00 a.m.",
+    "date": "2025-08-10",
+    "start_time": "09:45",
+    "end_time": "11:00",
     "division": "Commission on the Status of Women",
     "title": "Images of Women in Entertainment, News, and Social Media",
     "moderator": {
       "name": "Cara Hawkins-Jedlicka",
       "institution": "Washington State"
     },
-    "description": null,
+    "description": "A refereed research paper session on the images of women in media.",
     "panelists": [
       {
-        "paper_title": "Reel Mothers: Millennial Perceptions of Motherhood in Television and Film",
         "name": "Brandale Mills Cox",
-        "institution": "Howard"
+        "institution": "Howard",
+        "paper_title": "Reel Mothers: Millennial Perceptions of Motherhood in Television and Film"
       },
       {
-        "paper_title": "Unfinished Revenge: (Un)Popular Feminism, Class Politics, and Indignant Rage in Contemporary Chinese Dramas",
         "name": "Eva Liu",
-        "institution": "Ohio"
+        "institution": "Ohio",
+        "paper_title": "Unfinished Revenge: (Un)Popular Feminism, Class Politics, and Indignant Rage in Contemporary Chinese Dramas"
       },
       {
-        "paper_title": "Digital Discourse on Motherhood and Vaccination: A Twitter/X Thematic Analysis",
         "name": "Ying Zhuang",
-        "institution": "Boston"
+        "institution": "Boston",
+        "paper_title": "Digital Discourse on Motherhood and Vaccination: A Twitter/X Thematic Analysis"
       },
       {
-        "paper_title": "Digital Discourse on Motherhood and Vaccination: A Twitter/X Thematic Analysis",
         "name": "Traci Hong",
-        "institution": "Boston"
+        "institution": "Boston",
+        "paper_title": "Digital Discourse on Motherhood and Vaccination: A Twitter/X Thematic Analysis"
       },
       {
-        "paper_title": "\"I want to be home.\": A critical discourse analysis of #TradWife and #Stay-at-home-girlfriend through a postfeminist lens on TikTok",
         "name": "Shuo Yao",
-        "institution": "Radford"
+        "institution": "Radford",
+        "paper_title": "\"I Want To Be Home.”: A Critical Discourse Analysis Of #Tradwife And #Stay-At-Home-Girlfriend Through A Postfeminist Lens On Tiktok"
       },
       {
-        "paper_title": "\"I want to be home.\": A critical discourse analysis of #TradWife and #Stay-at-home-girlfriend through a postfeminist lens on TikTok",
         "name": "Zehui Dai",
-        "institution": "Radford"
+        "institution": "Radford",
+        "paper_title": "\"I Want To Be Home.”: A Critical Discourse Analysis Of #Tradwife And #Stay-At-Home-Girlfriend Through A Postfeminist Lens On Tiktok"
       },
       {
-        "paper_title": "A Lively Lawsuit: Exploring gender bias in Blake Lively's and Justin Baldoni's media battle",
         "name": "Andrea Hall",
-        "institution": "Middle Tennessee State"
+        "institution": "Middle Tennessee State",
+        "paper_title": "A Lively Lawsuit: Exploring Gender Bias In Blake Lively's And Justin Baldoni's Media Battle"
       },
       {
-        "paper_title": "A Lively Lawsuit: Exploring gender bias in Blake Lively's and Justin Baldoni's media battle",
         "name": "Lauren Furey",
-        "institution": "California Poly Pomona"
+        "institution": "California Poly Pomona",
+        "paper_title": "A Lively Lawsuit: Exploring Gender Bias In Blake Lively's And Justin Baldoni's Media Battle"
       },
       {
-        "paper_title": "A Lively Lawsuit: Exploring gender bias in Blake Lively's and Justin Baldoni's media battle",
         "name": "Teresa Acosta",
-        "institution": "California Poly Pomona"
+        "institution": "California Poly Pomona",
+        "paper_title": "A Lively Lawsuit: Exploring Gender Bias In Blake Lively's And Justin Baldoni's Media Battle"
       },
       {
-        "paper_title": "A Lively Lawsuit: Exploring gender bias in Blake Lively's and Justin Baldoni's media battle",
         "name": "Kristine Pascual",
-        "institution": "California Poly Pomona"
+        "institution": "California Poly Pomona",
+        "paper_title": "A Lively Lawsuit: Exploring Gender Bias In Blake Lively's And Justin Baldoni's Media Battle"
       },
       {
-        "role": "Discussant",
         "name": "Anne Osborne",
-        "institution": "Syracuse"
+        "institution": "Syracuse",
+        "paper_title": "Discussant"
       }
     ]
   },
   {
-    "date": "Sunday, August 10, 2025",
-    "start_time": "9:45 a.m.",
-    "end_time": "11:00 a.m.",
+    "date": "2025-08-10",
+    "start_time": "09:45",
+    "end_time": "11:00",
     "division": "Association for Education in Journalism and Mass Communication",
     "title": "Incoming AEJMC Board of Directors Meeting",
     "moderator": {
       "name": "Bey-Ling Sha",
-      "institution": "Texas Tech, President-Elect, 2024-25"
+      "institution": "Texas Tech, 2025-26 AEJMC President"
     },
-    "description": "By invitation only.",
+    "description": "Business Session for the incoming AEJMC Board of Directors. By invitation only.",
     "panelists": []
   },
   {
-    "date": "Sunday, August 10, 2025",
-    "start_time": "11:30 a.m.",
-    "end_time": "12:45 p.m.",
+    "date": "2025-08-10",
+    "start_time": "09:45",
+    "end_time": "11:00",
+    "division": "Scholastic Journalism and Broadcast and Mobile Journalism Divisions",
+    "title": "JOUR.Ed Collaborative: Leading the Way for the Next Generation of Journalists",
+    "moderator": {
+      "name": "Linda Bowen",
+      "institution": "California State, Northridge"
+    },
+    "description": "Panelists will discuss the state of journalism education at this pivotal moment + ways to strengthen the classroom-to-career pipeline.",
+    "panelists": [
+      {
+        "name": "Adriana Chavira",
+        "institution": "journalism educator/adviser, Daniel Pearl Magnet High School, Los Angeles, CA"
+      },
+      {
+        "name": "Danielle McKinney",
+        "institution": "California Press Foundation executive director, San Francisco, CA"
+      },
+      {
+        "name": "Sarah Nichols",
+        "institution": "journalism educator/former JEA national president, Whitney High School, Rocklin, CA"
+      },
+      {
+        "name": "Darleen Principe",
+        "institution": "journalism chair/adviser, Santa Barbara City College, Santa Barbara, CA"
+      },
+      {
+        "name": "Edward Rice",
+        "institution": "associate dean, Humanities Division, El Camino College, Torrance, CA"
+      }
+    ]
+  },
+  {
+    "date": "2025-08-10",
+    "start_time": "11:30",
+    "end_time": "12:45",
     "division": "Advertising Division",
     "title": "Teaching with Al: Innovative Strategies for Al Integration in Advertising Curriculum",
     "moderator": {
       "name": "Sujin Kim",
       "institution": "Oklahoma State"
     },
-    "description": "This panel explores how Al-driven tools can transform advertising education—from creative strategy development to campaign execution and management. It aims to (1) help educators efficiently integrate Al into curricula, (2) prepare students for Al-driven advertising careers, and (3) address ethical issues like student over-reliance on Al and biases in Al-generated content. Panelists will introduce key Al technologies (e.g., ChatGPT, predictive analytics, Al-powered media planning, and visualization tools) and show how they enhance brainstorming, prototype creation, and data-driven refinements. They'll share case studies of successful classroom integrations and provide a live demonstration of Al-powered creative generation. Ethical considerations such as plagiarism, Al bias, and responsible usage will also be discussed.",
+    "description": "This panel explores how Al-driven tools can transform advertising education—from creative strategy development to campaign execution and management.",
     "panelists": [
       {
         "name": "Rachel Lim",
@@ -643,186 +664,161 @@
     ]
   },
   {
-    "date": "Sunday, August 10, 2025",
-    "start_time": "11:30 a.m.",
-    "end_time": "12:45 p.m.",
+    "date": "2025-08-10",
+    "start_time": "11:30",
+    "end_time": "12:45",
     "division": "Cultural and Critical Studies Division",
     "title": "Critical Reflections in Media Research and Social Theory",
     "moderator": {
       "name": "Raiana de Carvalho",
       "institution": "Furman"
     },
-    "description": null,
+    "description": "A refereed research paper session on critical reflections in media research and social theory.",
     "panelists": [
       {
-        "paper_title": "Paranoid Research, Anxious Public: The Legacy of Fear in Mass Communication Studies",
         "name": "Natalie Ngai",
-        "institution": "ТВА"
+        "institution": null,
+        "paper_title": "Paranoid Research, Anxious Public: The Legacy of Fear in Mass Communication Studies"
       },
       {
-        "paper_title": "Substance and shadow: Conceptualizing Hauntic media frames",
         "name": "Jason Cain",
-        "institution": "Mississippi"
+        "institution": "Mississippi",
+        "paper_title": "Substance and shadow: Conceptualizing Hauntic Media Frames"
       },
       {
-        "paper_title": "Eugene Debs, Bernie Sanders, and the Case of the Shrinking Socialist Imagination",
         "name": "Jesse Benn",
-        "institution": "Wisconsin - Madison"
+        "institution": "Wisconsin - Madison",
+        "paper_title": "Eugene Debs, Bernie Sanders, and the Case of the Shrinking Socialist Imagination"
       },
       {
-        "paper_title": "American Glory, Faded Before Me: The Illusion of Prestige and the Crisis of Legitimacy of the American Award Show",
         "name": "Kyle Stanley",
-        "institution": "affiliation"
+        "institution": "Florida",
+        "paper_title": "American Glory, Faded Before Me: The Illusion of Prestige and the Crisis of Legitimacy of the American Award Show"
       },
       {
-        "paper_title": "American Glory, Faded Before Me: The Illusion of Prestige and the Crisis of Legitimacy of the American Award Show",
         "name": "Chris DeFelice",
-        "institution": "Florida"
+        "institution": "Florida",
+        "paper_title": "American Glory, Faded Before Me: The Illusion of Prestige and the Crisis of Legitimacy of the American Award Show"
       },
       {
-        "paper_title": "Rejection of the Cyborg: Posthumanism and Labor in the Age of Al",
         "name": "Alfonso Hegde",
-        "institution": "Southern California"
+        "institution": "Southern California",
+        "paper_title": "Rejection of the Cyborg: Posthumanism and Labor in the Age of Al"
       },
       {
-        "role": "Discussant",
         "name": "Anne Osborne",
-        "institution": "Syracuse"
+        "institution": "Syracuse",
+        "paper_title": "Discussant"
       }
     ]
   },
   {
-    "date": "Sunday, August 10, 2025",
-    "start_time": "11:30 a.m.",
-    "end_time": "12:45 p.m.",
+    "date": "2025-08-10",
+    "start_time": "11:30",
+    "end_time": "12:45",
     "division": "Law and Policy Division",
     "title": "Political Speech, Press Freedom, and Legal Constraints",
     "moderator": {
-      "name": "Alexis Shore Ingber",
-      "institution": "Michigan"
+      "name": "Anastasia Micich",
+      "institution": "Minnesota"
     },
-    "description": null,
+    "description": "A refereed research paper session on political speech, press freedom, and legal constraints.",
     "panelists": [
       {
-        "paper_title": "[EA] The Right to Lie in the Age of Trump: Political Crimes and Campaign Communications",
         "name": "William Davie",
-        "institution": "Louisiana"
+        "institution": "Louisiana",
+        "paper_title": "[EA] The Right to Lie in the Age of Trump: Political Crimes and Campaign Communications"
       },
       {
-        "paper_title": "Criminalizing Journalism: Rethinking Global Press Typologies Through the Lens of Defamation Laws",
         "name": "Ershad Khan",
-        "institution": "Colorado-Boulder"
+        "institution": "Colorado-Boulder",
+        "paper_title": "Criminalizing Journalism: Rethinking Global Press Typologies Through the Lens of Defamation Laws"
       },
       {
-        "paper_title": "[EA] A Grave Threat Against Press Freedom",
         "name": "Sheila Lalwani",
-        "institution": "affiliation"
+        "institution": "Texas at Austin",
+        "paper_title": "[EA] A Grave Threat Against Press Freedom"
       },
       {
-        "paper_title": "Seditious Libel in Trinidad and the Controversial Savings Clause",
         "name": "Roxanne Watson",
-        "institution": "South Florida"
+        "institution": "South Florida",
+        "paper_title": "Seditious Libel in Trinidad and the Controversial Savings Clause"
       },
       {
-        "role": "Discussant",
-        "name": "Erin Coyle",
-        "institution": "Temple"
+        "name": "A.Jay Wagner",
+        "institution": "Marquette",
+        "paper_title": "Discussant"
       }
     ]
   },
   {
-    "date": "Sunday, August 10, 2025",
-    "start_time": "11:30 a.m.",
-    "end_time": "12:45 p.m.",
+    "date": "2025-08-10",
+    "start_time": "11:30",
+    "end_time": "12:45",
     "division": "Mass Communication and Society Division",
     "title": "Digital Media Risks and Regulations",
     "moderator": {
       "name": "Ruoxu Wang",
       "institution": "Memphis"
     },
-    "description": null,
+    "description": "A refereed research paper session on digital media risks and regulations.",
     "panelists": [
       {
-        "paper_title": "Perceptions of Uncivil and Intolerant Anti-Immigration Content and the Role of Digital Hate Perpetration",
         "name": "Stephanie Bührer",
-        "institution": "affiliation"
+        "institution": "University of Vienna",
+        "paper_title": "Perceptions of Uncivil and Intolerant Anti-Immigration Content and the Role of Digital Hate Perpetration"
       },
       {
-        "paper_title": "Perceptions of Uncivil and Intolerant Anti-Immigration Content and the Role of Digital Hate Perpetration",
         "name": "Kevin Koban",
-        "institution": "affiliation"
+        "institution": "University of Vienna",
+        "paper_title": "Perceptions of Uncivil and Intolerant Anti-Immigration Content and the Role of Digital Hate Perpetration"
       },
       {
-        "paper_title": "Perceptions of Uncivil and Intolerant Anti-Immigration Content and the Role of Digital Hate Perpetration",
         "name": "Jörg Matthes",
-        "institution": "University of Vienna"
+        "institution": "University of Vienna",
+        "paper_title": "Perceptions of Uncivil and Intolerant Anti-Immigration Content and the Role of Digital Hate Perpetration"
       },
       {
-        "paper_title": "Empowering or Hindering? How Today's Digital Media Consumers Really Feel About Data Privacy Issues and Privacy Protection Regulations",
         "name": "Wonsun Shin",
-        "institution": "University of Melbourne"
+        "institution": "University of Melbourne",
+        "paper_title": "Empowering or Hindering? How Today's Digital Media Consumers Really Feel About Data Privacy Issues and Privacy Protection Regulations"
       },
       {
-        "paper_title": "Empowering or Hindering? How Today's Digital Media Consumers Really Feel About Data Privacy Issues and Privacy Protection Regulations",
         "name": "Jisu Huh",
-        "institution": "Minnesota"
+        "institution": "Minnesota",
+        "paper_title": "Empowering or Hindering? How Today's Digital Media Consumers Really Feel About Data Privacy Issues and Privacy Protection Regulations"
       },
       {
-        "paper_title": "Empowering or Hindering? How Today's Digital Media Consumers Really Feel About Data Privacy Issues and Privacy Protection Regulations",
         "name": "Bo Chen",
-        "institution": "University of Melbourne"
+        "institution": "University of Melbourne",
+        "paper_title": "Empowering or Hindering? How Today's Digital Media Consumers Really Feel About Data Privacy Issues and Privacy Protection Regulations"
       },
       {
-        "paper_title": "Empowering or Hindering? How Today's Digital Media Consumers Really Feel About Data Privacy Issues and Privacy Protection Regulations",
         "name": "Wenwen Cao",
-        "institution": "Minnesota-Twin Cities"
+        "institution": "Minnesota-Twin Cities",
+        "paper_title": "Empowering or Hindering? How Today's Digital Media Consumers Really Feel About Data Privacy Issues and Privacy Protection Regulations"
       },
       {
-        "paper_title": "Beyond Censorship: Understanding the Complexities of Social Media Bans and the Rejection of Regulation",
         "name": "Gabriella Jensen",
-        "institution": "affiliation"
+        "institution": "Louisiana State",
+        "paper_title": "Beyond Censorship: Understanding the Complexities of Social Media Bans and the Rejection of Regulation"
       },
       {
-        "paper_title": "Beyond Censorship: Understanding the Complexities of Social Media Bans and the Rejection of Regulation",
         "name": "Fanny Ramirez",
-        "institution": "Louisiana State"
+        "institution": "Louisiana State",
+        "paper_title": "Beyond Censorship: Understanding the Complexities of Social Media Bans and the Rejection of Regulation"
       },
       {
-        "paper_title": "Beyond Censorship: Understanding the Complexities of Social Media Bans and the Rejection of Regulation",
         "name": "Morgan Badurak",
-        "institution": "Louisiana State"
-      },
-      {
-        "paper_title": "How Do Scholars Targeted by Digital Hate Perceive Perpetrators and Bystanders? A Qualitative Study",
-        "name": "Maryam Khaleghipour",
-        "institution": "University of Vienna"
-      },
-      {
-        "paper_title": "How Do Scholars Targeted by Digital Hate Perceive Perpetrators and Bystanders? A Qualitative Study",
-        "name": "Kevin Koban",
-        "institution": "University of Vienna"
-      },
-      {
-        "paper_title": "How Do Scholars Targeted by Digital Hate Perceive Perpetrators and Bystanders? A Qualitative Study",
-        "name": "Jörg Matthes",
-        "institution": "University of Vienna"
-      },
-      {
-        "paper_title": "[EA] Do Unwanted Visits Heighten My Vigilance? A Dynamic Privacy Management Perspective on Self-Disclosure on Sina Weibo",
-        "name": "Xi Zhang",
-        "institution": "affiliation"
-      },
-      {
-        "role": "Discussant",
-        "name": "Gina Masullo",
-        "institution": "Texas at Austin"
+        "institution": "Louisiana State",
+        "paper_title": "Beyond Censorship: Understanding the Complexities of Social Media Bans and the Rejection of Regulation"
       }
     ]
   },
   {
-    "date": "Sunday, August 10, 2025",
-    "start_time": "11:30 a.m.",
-    "end_time": "12:45 p.m.",
+    "date": "2025-08-10",
+    "start_time": "11:30",
+    "end_time": "12:45",
     "division": "Public Relations and History Divisions",
     "title": "Essential Change: Adding Diverse Role Models to Public Relations History",
     "moderator": {
@@ -850,93 +846,93 @@
     ]
   },
   {
-    "date": "Sunday, August 10, 2025",
-    "start_time": "11:30 a.m.",
-    "end_time": "12:45 p.m.",
+    "date": "2025-08-10",
+    "start_time": "11:30",
+    "end_time": "12:45",
     "division": "Political Communication Division",
     "title": "Political Media Consumption and Effects",
     "moderator": {
       "name": "Bingbing Zhang",
       "institution": "Iowa"
     },
-    "description": null,
+    "description": "A refereed research paper session on political media consumption and its effects.",
     "panelists": [
       {
-        "paper_title": "FOI-nding value: An analysis of perceived value of information from freedom of information requests",
         "name": "A.Jay Wagner",
-        "institution": "Marquette"
+        "institution": "Marquette",
+        "paper_title": "Foi-Nding Value: An Analysis Of Perceived Value of Information From Freedom Of Information Requests"
       },
       {
-        "paper_title": "FOI-nding value: An analysis of perceived value of information from freedom of information requests",
         "name": "Jessica Sparks",
-        "institution": "Auburn"
+        "institution": "Auburn",
+        "paper_title": "Foi-Nding Value: An Analysis Of Perceived Value of Information From Freedom Of Information Requests"
       },
       {
-        "paper_title": "Diversify Yourself: Receptiveness to Opposing Views, Media Diet Diversity, and Polarization",
         "name": "Eliana DuBosar",
-        "institution": "Auburn"
+        "institution": "Auburn",
+        "paper_title": "Diversify Yourself: Receptiveness to Opposing Views, Media Diet Diversity, and Polarization"
       },
       {
-        "paper_title": "Diversify Yourself: Receptiveness to Opposing Views, Media Diet Diversity, and Polarization",
         "name": "Jay Hmielowski",
-        "institution": "Florida"
+        "institution": "Florida",
+        "paper_title": "Diversify Yourself: Receptiveness to Opposing Views, Media Diet Diversity, and Polarization"
       },
       {
-        "paper_title": "Would Personal Curation Strategies Improve Political Disengagement? Examining The Politics of Personal Curation (PPC) Model",
         "name": "Biying Wu-ouyang",
-        "institution": "The Education University of Hong Kong"
+        "institution": "The Education University of Hong Kong",
+        "paper_title": "Would Personal Curation Strategies Improve Political Disengagement? Examining The Politics of Personal Curation (PPC) Model"
       },
       {
-        "paper_title": "Identifying and Developing a Research Agenda to Address Structural Weaknesses in Political Socialization Research",
         "name": "Lance Holbert",
-        "institution": "Pennsylvania"
+        "institution": "Pennsylvania",
+        "paper_title": "Identifying and Developing a Research Agenda to Address Structural Weaknesses in Political Socialization Research"
       },
       {
-        "paper_title": "Identifying and Developing a Research Agenda to Address Structural Weaknesses in Political Socialization Research",
         "name": "Huma Rasheed",
-        "institution": "Pennsylvania"
+        "institution": "Pennsylvania",
+        "paper_title": "Identifying and Developing a Research Agenda to Address Structural Weaknesses in Political Socialization Research"
       },
       {
-        "paper_title": "Identifying and Developing a Research Agenda to Address Structural Weaknesses in Political Socialization Research",
         "name": "Mya McKeown",
-        "institution": "Ohio State"
+        "institution": "Ohio State",
+        "paper_title": "Identifying and Developing a Research Agenda to Address Structural Weaknesses in Political Socialization Research"
       },
       {
-        "paper_title": "Identifying and Developing a Research Agenda to Address Structural Weaknesses in Political Socialization Research",
         "name": "Kara Fort",
-        "institution": "Ohio State"
+        "institution": "Ohio State",
+        "paper_title": "Identifying and Developing a Research Agenda to Address Structural Weaknesses in Political Socialization Research"
       },
       {
-        "paper_title": "Identifying and Developing a Research Agenda to Address Structural Weaknesses in Political Socialization Research",
         "name": "Bruce Hardy",
-        "institution": "Temple"
+        "institution": "Temple",
+        "paper_title": "Identifying and Developing a Research Agenda to Address Structural Weaknesses in Political Socialization Research"
       },
       {
-        "paper_title": "How Political Advertising Shapes Candidate Image and Brand Identity Attributes",
         "name": "Freddie Jennings",
-        "institution": "Arkansas"
+        "institution": "Arkansas",
+        "paper_title": "How Political Advertising Shapes Candidate Image and Brand Identity Attributes"
       },
       {
-        "paper_title": "How Political Advertising Shapes Candidate Image and Brand Identity Attributes",
         "name": "Josh Bramlett",
-        "institution": "Alabama"
+        "institution": "Alabama",
+        "paper_title": "How Political Advertising Shapes Candidate Image and Brand Identity Attributes"
       },
       {
-        "paper_title": "How Political Advertising Shapes Candidate Image and Brand Identity Attributes",
         "name": "Benjamin Warner",
-        "institution": "Missouri"
+        "institution": "Missouri",
+        "paper_title": "How Political Advertising Shapes Candidate Image and Brand Identity Attributes"
       },
       {
-        "role": "Discussant",
         "name": "Leping You",
-        "institution": "Miami"
+        "institution": "Miami",
+        "paper_title": "Discussant"
       }
     ]
   },
   {
-    "date": "Sunday, August 10, 2025",
-    "start_time": "11:30 a.m.",
-    "end_time": "12:45 p.m.",
+    "date": "2025-08-10",
+    "start_time": "11:30",
+    "end_time": "12:45",
     "division": "Scholastic Journalism Division",
     "title": "'It Depends on How You Use the Tool': Preparing Future Journalists and Exploring Public Understanding of Al in the News Industry",
     "moderator": {
@@ -946,61 +942,61 @@
     "description": "From capstone courses to hands-on classroom lessons, this session explores the integration of generative Al tools in journalism education, featuring student perspectives on how these tools are shaping their skills and newsroom readiness. It also examines public perceptions and news literacy in the Al era, offering insight into how audiences understand and engage with Al-driven news content.",
     "panelists": [
       {
-        "paper_title": "[EA] Empowering Journalism Students: Knowledge, Confidence and Ethical Use of Generative Al in Capstone Projects",
         "name": "Lourdes Cueva Chacón",
-        "institution": "San Diego State"
+        "institution": "San Diego State",
+        "paper_title": "[EA] Empowering Journalism Students: Knowledge, Confidence and Ethical Use of Generative Al in Capstone Projects"
       },
       {
-        "paper_title": "[EA] Empowering Journalism Students: Knowledge, Confidence and Ethical Use of Generative Al in Capstone Projects",
         "name": "Alanna Peebles",
-        "institution": "San Diego State"
+        "institution": "San Diego State",
+        "paper_title": "[EA] Empowering Journalism Students: Knowledge, Confidence and Ethical Use of Generative Al in Capstone Projects"
       },
       {
-        "paper_title": "[EA] From Classroom to Newsroom: Drivers and Constraints to Al Literacy Development in Journalism Training",
         "name": "Sina Thäsler-Kordonouri",
-        "institution": "Leipzig University"
+        "institution": "Leipzig University",
+        "paper_title": "[EA] From Classroom to Newsroom: Drivers and Constraints to Al Literacy Development in Journalism Training"
       },
       {
-        "paper_title": "[EA] From Classroom to Newsroom: Drivers and Constraints to Al Literacy Development in Journalism Training",
         "name": "Vera Katzenberger",
-        "institution": "Leipzig University"
+        "institution": "Leipzig University",
+        "paper_title": "[EA] From Classroom to Newsroom: Drivers and Constraints to Al Literacy Development in Journalism Training"
       },
       {
-        "paper_title": "[EA] Reconstructing an Integrated Measurement Framework of News Literacy in the Al Era",
         "name": "Xiaojing Li",
-        "institution": "Shanghai Jiao Tong University"
+        "institution": "Shanghai Jiao Tong University",
+        "paper_title": "[EA] Reconstructing an Integrated Measurement Framework of News Literacy in the Al Era"
       },
       {
-        "paper_title": "[EA] Reconstructing an Integrated Measurement Framework of News Literacy in the Al Era",
         "name": "Ziwei Feng",
-        "institution": "Shanghai Jiao Tong University"
+        "institution": "Shanghai Jiao Tong University",
+        "paper_title": "[EA] Reconstructing an Integrated Measurement Framework of News Literacy in the Al Era"
       },
       {
-        "paper_title": "[EA] Reconstructing an Integrated Measurement Framework of News Literacy in the Al Era",
         "name": "Habin Noh",
-        "institution": "Shanghai Jiao Tong University"
+        "institution": "Shanghai Jiao Tong University",
+        "paper_title": "[EA] Reconstructing an Integrated Measurement Framework of News Literacy in the Al Era"
       },
       {
-        "paper_title": "Integrating Generative Al into Media Education: Action Research on Digital Literacy for Future Communicators",
         "name": "Lin Siew Chin",
-        "institution": "New Era University College Malaysia"
+        "institution": "New Era University College Malaysia",
+        "paper_title": "Integrating Generative Al into Media Education: Action Research on Digital Literacy for Future Communicators"
       },
       {
-        "paper_title": "Integrating Generative Al into Media Education: Action Research on Digital Literacy for Future Communicators",
         "name": "Tan Huey Shyh",
-        "institution": "Malaysia Multimedia University"
+        "institution": "Malaysia Multimedia University",
+        "paper_title": "Integrating Generative Al into Media Education: Action Research on Digital Literacy for Future Communicators"
       },
       {
-        "role": "Discussant",
         "name": "Sarah Cavanah",
-        "institution": "Kansas"
+        "institution": "Kansas",
+        "paper_title": "Discussant"
       }
     ]
   },
   {
-    "date": "Sunday, August 10, 2025",
-    "start_time": "11:30 a.m.",
-    "end_time": "12:45 p.m.",
+    "date": "2025-08-10",
+    "start_time": "11:30",
+    "end_time": "12:45",
     "division": "Commission on the Status of Women and Internships and Careers Interest Group",
     "title": "Navigating Personal Ethics When Researching Power Dynamics as Emerging Scholars",
     "moderator": {
